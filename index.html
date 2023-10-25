@@ -14,30 +14,62 @@
         <h2>BU21SEN1002</h2>
         <!-- <h2>COUR</h2> -->
         <form  method="post">
-            <div class="cart-one">
-                <input type="text" value="<%= name %>" placeholder="Name" name="name" >
-                <label>Cart-One</label>
-            </div>
-            <div class="cart-one">
-                <input type="text" value="<%= quantity %>"  placeholder="Quantity"  name="quantity">
-                <label>Cart Two</label>
-            </div>
-            <div class="cart-one">
-                <input type="text" value="<%= price %>"  placeholder="Price" name="price">
-                <input type="hidden" value="<%= _id %>"  placeholder="Price" name="_id">
-                <label>Cart Three</label>
-            </div>
+            <table>
+                <tr> 
+                    <th>S/N</th>
+                    <th>Course Code</th>
+                    <th>Course Title</th>
+                    <th>Register</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>GEL 301</td>
+                    <td>SDGs</td>
+                    <td><input type="checkbox" required></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>EES 301</td>
+                    <td>Knowledge Application</td>
+                    <td><input type="checkbox" required></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>SEN 301</td>
+                    <td>Object-Oriented Analysis And Design</td>
+                    <td><input type="checkbox" required></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>SEN 303</td>
+                    <td>Software testing</td>
+                    <td><input type="checkbox" required></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>SEN 305</td>
+                    <td>Web Application</td>
+                    <td><input type="checkbox" required></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>SEN 309</td>
+                    <td>Concepts of Programming Language</td>
+                    <td><input type="checkbox" required></td>
+                </tr>
+              </table>
+         
             <div class="flex">
-                <!-- <form action="/edit" method="post"> -->
+                
                     <button>
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                       Edit
+                       Register
                     </button>   
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-                <!-- </form> -->
+             
                 </div>
            
         </form>
